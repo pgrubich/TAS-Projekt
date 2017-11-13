@@ -19,8 +19,8 @@ else
   $login = $_POST['login'];
   $password = $_POST['password'];
 
-  $login = htmlentities($login,ENT_QUOTE,"UTF-8");
-  $password = htmlentities($password,ENT_QUOTE,"UTF-8");
+  $login = htmlentities($login,ENT_QUOTES,"UTF-8");
+  $password = htmlentities($password,ENT_QUOTES,"UTF-8");
 
   if ($result = @$connection->query(sprintf("SELECT* FROM users
     WHERE login='%s' AND password='%s'",
@@ -33,10 +33,9 @@ else
         $_SESSION['loggedIn'] = true;
 
         $row = $result->fetch_assoc();
-        $_SESSION['id'] = $row['id'];
         $_SESSION['login'] = $row['login'];
 
-        #unset($_SESSION['error']);
+        unset($_SESSION['error']);
 
         $result->close();
         header('Location:calendar.php');

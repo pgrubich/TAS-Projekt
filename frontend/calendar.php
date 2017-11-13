@@ -1,11 +1,11 @@
 <?php
 session_start();
 
-#if(!isset($_SESSION['loggedIn']))
-#{
-#  header('Location: index.php');
-#  exit();
-#}
+if(!isset($_SESSION['loggedIn']))
+{
+  header('Location: index.php');
+  exit();
+}
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -16,6 +16,7 @@ session_start();
     <body>
       <?php
       echo "<p>Main page</p>";
+      echo '<a href="logout.php">Wyloguj się</a>';
       ?>
     </body>
 
