@@ -3,6 +3,6 @@
   $host = "localhost";
   $dbUser = "root";
   $dbPassword = "";
-  $dbName = "tas-calendar";
+  $dbName = "tas";
 
 ?>

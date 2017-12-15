@@ -14,10 +14,9 @@ if(!isset($_SESSION['loggedIn']))
     </head>
 
     <body>
-      <?php
-      echo "<p>Main page</p>";
-      echo '<a href="logout.php">Wyloguj się</a>';
-      ?>
+      <p>Main page</p>
+      <a href="logout.php">Wyloguj się</a>;
+
     </body>
 
 </html>

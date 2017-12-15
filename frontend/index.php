@@ -1,6 +1,6 @@
 <?php
 session_start();
-if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']==true))
+if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']))
 {
   header('Location: calendar.php');
   exit();
@@ -19,7 +19,7 @@ if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']==true))
 	 <div id="container">
 	 <div id="panel">
 		<div id="top">
-		Nie masz konta? <a href="index2.html" >Zarejerstruj się</a>.
+		Nie masz konta? <a href="signupView.php" >Zarejerstruj się</a>.
 		</div>
 		<div id="mid">
 			<form action="login.php" method="post">
