@@ -1,0 +1,113 @@
+
+body{
+
+    background-image: url("./pics/background.jpg");
+}
+
+#container{
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    
+     justify-content:center;
+
+}
+
+#calendar{
+    justify-content:center;
+    background-color:white;
+    height: 525px;
+    padding: 15px 15px 0px 15px;
+    border-radius: 15px;
+}
+
+tr{
+    width: 700px;
+    height: 50px;
+}
+#mainTable{
+    width: 900px;
+    border: 1px solid black;
+    border-collapse:separate;
+    border-radius:3px;
+}
+
+#nextMonth, #previousMonth{
+    font-size:50px;
+    color:rgb(76, 76, 240);
+    font-weight: bold;
+    margin-right:30px;
+    margin-left:30px;
+}
+
+#nextMonth:hover, #previousMonth:hover {
+    cursor: pointer;
+    color:rgb(132, 151, 247);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Norican', cursive;
+    font-size: 70px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 10px;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size:25px;
+    padding-bottom: 5px;
+    margin-top:7px;
+
+}
+
+
+#head-control{
+    width: 200px;
+}
+
+#control-panel{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.calendar-week{
+    background-color: rgb(226, 55, 33);
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    height: 25px;
+}
+
+
+
+.calendar-day{
+    border-radius:3px;
+    border: 1px solid black;
+    width:100px;
+    height: 60px;
+    
+}
+.calendar-day:hover{
+    background-color: rgb(224, 245, 252);
+    cursor: pointer;
+}
+
+.calendar-day-np{
+    background-color: rgb(236, 232, 232);
+    border: 1px solid black;
+    width: 100px;
+    height: 60px;
+    
+}
+
+
+.day-number{
+    position: relative;
+    float: right;
+    margin-right:5px;
+    margin-bottom:33px;
+    font-size:13px;
+}
