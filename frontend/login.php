@@ -39,7 +39,7 @@ try
 
                     unset($_SESSION['error']);
                     $result->close();
-                    header('Location:calendar.php');
+                    header('Location: Kalendarz/index.php');
                 } else {
                     $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło</span>';
                     header('Location: index.php');

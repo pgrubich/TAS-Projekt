@@ -32,7 +32,8 @@
         $_SESSION['e_password'] = "Podane hasła nie są identyczne";
     }
 
-    $pass_hash = password_hash($pass1, PASSWORD_DEFAULT);
+    //$pass_hash = password_hash($pass1, PASSWORD_DEFAULT);
+
 
     require_once "connect.php";
     mysqli_report(MYSQLI_REPORT_STRICT);
@@ -58,7 +59,7 @@
 
             if($succeeded)
             {
-                if($connection->query("INSERT INTO users VALUES(NULL,'$username','$pass_hash')"))
+                if($connection->query("INSERT INTO users VALUES(NULL,'$username','$pass1')"))
                 {
                     $_SESSION['signedUp'] = true;
                     header('Location: welcome.php');

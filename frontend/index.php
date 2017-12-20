@@ -2,7 +2,7 @@
 session_start();
 if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']))
 {
-  header('Location: calendar.php');
+  header('Location: Kalendarz/index.php');
   exit();
 }
 ?>
