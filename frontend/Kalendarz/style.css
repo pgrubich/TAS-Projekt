@@ -92,7 +92,7 @@ h3{
 }
 .calendar-day:hover{
     background-color: rgb(224, 245, 252);
-    cursor: pointer;
+
 }
 
 .calendar-day-np{
@@ -110,4 +110,89 @@ h3{
     margin-right:5px;
     margin-bottom:33px;
     font-size:13px;
+}
+
+#menu{
+    float:left;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    display: none;
+}
+
+ul a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+
+}
+
+ul > li {
+    background-color: #c034348e;
+    border-top: 1px dashed white;
+    height: 40px;
+    text-align:center;
+    padding-top: 10px;
+    width: 160px;
+    border-radius:3px;
+}
+ul > li:hover{
+    background-color: #af1111fa;
+}
+
+#menuButton{
+    background-color: rgb(179, 44, 26);
+    border-radius:3px;
+    border: 1px solid white;
+    width:160px;
+    height: 45px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#menuButton:hover{
+    background-color: rgb(168, 42, 25);
+    cursor: pointer;
+ 
+}
+
+.day-event{
+    background-color: rgba(104, 177, 8, 0.541);
+    float:left;
+    border-radius:3px;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2px;
+    margin: 1px;
+}
+.day-event:hover .detailBlock{
+    cursor: pointer;
+    visibility: visible;
+}
+
+.detailBlock{
+    visibility: hidden;
+    
+    background-color: rgba(26, 125, 190, 0.541);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 13px;
+    white-space: pre;
+    text-align: left;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
 }
