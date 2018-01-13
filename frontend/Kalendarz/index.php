@@ -17,9 +17,19 @@ if(!isset($_SESSION['loggedIn']))
         <link href="https://fonts.googleapis.com/css?family=Norican|Quicksand" rel="stylesheet">
 	</head>
 	<body>
-    <a href="../logout.php">Wyloguj się</a>
+            <div id ="menu"><h4>Hello Marcin</h4></br>
+                <button id="menuButton">Expand the menu</button>
+                <ul>
+                    <li><a href="#">ADD TASK</a></li>
+                    <li><a href="#">DELETE TASK</a></li>
+                    <li><a href="#">CHECK TASK LIST</a></li>
+                </ul>
+            </div>
         <div id = "container">
+
+            
             <h1>Calendar</h1>
+            
             <div id ="calendar">
                 <div id="control-panel">
                         <i id="previousMonth" class="fa fa-angle-left" aria-hidden="true"></i>
@@ -91,6 +101,9 @@ if(!isset($_SESSION['loggedIn']))
             </div>
         </div>
         <script src="calendar.js" type="text/javascript"></script>
+        <script src="menu.js" type="text/javascript"></script>
+        <script src="getJson.js" type="text/javascript"></script>
+        
     </body>
     
 </html>
