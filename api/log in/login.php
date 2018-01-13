@@ -1,21 +1,21 @@
 <?php
 session_start();
 
-if((!isset($_POST['login'])) || (!isset($_POST['password'])))
-{
-  header('Location: index.php');
+if((!isset($_POST['login'])) || (!isset($_POST['password']))) {
+
+  header('Location: ../index.php');
   exit();
 }
 
-require_once "connect.php";
+require_once "../config/connect.php";
 mysqli_report(MYSQLI_REPORT_STRICT);
 
-try
-{
+try {
+
     $connection = new mysqli($host, $dbUser, $dbPassword, $dbName);
 
-    if ($connection->connect_errno != 0)
-    {
+    if ($connection->connect_errno != 0) {
+
         throw new Exception(mysqli_connect_errno());
     }
     else {
@@ -23,6 +23,7 @@ try
         $password = $_POST['password'];
 
         $login = htmlentities($login, ENT_QUOTES, "UTF-8");
+        $password = htmlentities($password, ENT_QUOTES, "UTF-8");
 
 
         if ($result = $connection->query(sprintf
@@ -33,28 +34,28 @@ try
             if ($numOfUsers > 0) {
                 $row = $result->fetch_assoc();
 
-                if (password_verify($password, $row['password'])) {
+                if ($password == $row['password']) {
                     $_SESSION['loggedIn'] = true;
                     $_SESSION['login'] = $row['login'];
 
                     unset($_SESSION['error']);
                     $result->close();
-                    header('Location: Kalendarz/index.php');
+                    header('Location: ../../Kalendarz/index.php');
                 } else {
                     $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło</span>';
-                    header('Location: index.php');
+                    header('Location: ../index.php');
                 }
             } else {
                 $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło</span>';
-                header('Location: index.php');
+                header('Location: ../index.php');
             }
         }
 
         $connection->close();
     }
 }
-catch(Exception $e)
-{
+catch(Exception $e) {
+
     echo 'Błąd serwera <br>';
 }
-?>
+

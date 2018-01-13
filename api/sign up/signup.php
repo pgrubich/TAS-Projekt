@@ -35,7 +35,7 @@
     //$pass_hash = password_hash($pass1, PASSWORD_DEFAULT);
 
 
-    require_once "connect.php";
+    require_once "../config/connect.php";
     mysqli_report(MYSQLI_REPORT_STRICT);
 
     try
@@ -79,5 +79,5 @@
     }
 
   }
-?>
+
 

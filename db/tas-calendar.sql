@@ -659,7 +659,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`login`, `password`, `signup_date`, `avatar`) VALUES
-('apple', 'haskell<3', '1995-08-12 13:24:44', 'avatars/apple_64x64.png'),
+('apple', 'haskell3', '1995-08-12 13:24:44', 'avatars/apple_64x64.png'),
 ('DarioX23', 'Polska123', '2016-05-10 17:14:14', 'avatars/DarioX23_64x64.png'),
 ('dell', 'utf8@sd', '2000-10-24 22:35:12', 'avatars/dell_64x64.png'),
 ('greg', 'tommy', '2012-01-14 11:06:25', 'avatars/greg_64x64.png'),

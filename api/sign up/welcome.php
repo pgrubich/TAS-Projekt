@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['signedUp']))
 {
-  header('Location: index.php');
+  header('Location: ../index.php');
   exit();
 }
 else
@@ -16,13 +16,13 @@ else
      <head>
           <meta charset="UTF-8" />
           <title>Logowanie</title>
-		  <link rel="stylesheet" href="style.css" type="text/css"/>
-		  <script src="script.js" type="text/javascript"></script>
+		  <link rel="stylesheet" href="../style.css" type="text/css"/>
+		  <script src="../script.js" type="text/javascript"></script>
      </head>
 	 <body>
 
 		Rejestracja zakończona sukcesem <br>
-            <a href="index.php.php" >Zaloguj się</a>.
+            <a href="../index.php" >Zaloguj się</a>
 
 	 </body>
 </html>

@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60ea63c6-ecc9-43c6-9a56-236c04cbe031" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/TAS-Projekt.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/config/Database.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/objects/User.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/user/createM.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/user/read.php" />
+      <change beforePath="$PROJECT_DIR$/backend/db/createDbScript.sql" afterPath="$PROJECT_DIR$/db/createDbScript.sql" />
+      <change beforePath="$PROJECT_DIR$/backend/db/tas-calendar.sql" afterPath="$PROJECT_DIR$/db/tas-calendar.sql" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/calendar.js" afterPath="$PROJECT_DIR$/Kalendarz/calendar.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/HELP-US-OUT.txt" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/animated.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/fixed-width.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/font-awesome.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/icons.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/larger.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/list.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/path.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/screen-reader.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/stacked.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/less/variables.less" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_animated.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_core.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_larger.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_path.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_stacked.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/Kalendarz/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/getJson.js" afterPath="$PROJECT_DIR$/Kalendarz/getJson.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/index.php" afterPath="$PROJECT_DIR$/Kalendarz/index.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/menu.js" afterPath="$PROJECT_DIR$/Kalendarz/menu.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/pics/background.jpg" afterPath="$PROJECT_DIR$/Kalendarz/pics/background.jpg" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/plikTestowy.json" afterPath="$PROJECT_DIR$/Kalendarz/plikTestowy.json" />
+      <change beforePath="$PROJECT_DIR$/frontend/Kalendarz/style.css" afterPath="$PROJECT_DIR$/Kalendarz/style.css" />
+      <change beforePath="$PROJECT_DIR$/frontend/calendar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/connect.php" afterPath="$PROJECT_DIR$/api/config/connect.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.php" afterPath="$PROJECT_DIR$/api/index.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/login.php" afterPath="$PROJECT_DIR$/api/log in/login.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/logout.php" afterPath="$PROJECT_DIR$/api/log in/logout.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/script.js" afterPath="$PROJECT_DIR$/api/script.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/signup.php" afterPath="$PROJECT_DIR$/api/sign up/signup.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/signupView.php" afterPath="$PROJECT_DIR$/api/sign up/signupView.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/signup_err1.php" afterPath="$PROJECT_DIR$/api/sign up/signup_err1.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/signup_err2.php" afterPath="$PROJECT_DIR$/api/sign up/signup_err2.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/style.css" afterPath="$PROJECT_DIR$/api/style.css" />
+      <change beforePath="$PROJECT_DIR$/frontend/welcome.php" afterPath="$PROJECT_DIR$/api/sign up/welcome.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="createM.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/user/createM.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Kalendarz/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/user/read.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="6" lean-forward="false" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/objects/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <marker date="1515852214070" expanded="true" signature="566:678" ph="SELECT u.log... users" />
+                <marker date="1515852214070" expanded="true" signature="845:1124" ph="SELECT m.mee... users" />
+                <marker date="1515852214070" expanded="true" signature="1291:1546" ph="SELECT t.tas... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pass</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/calendar.php" />
+        <option value="$PROJECT_DIR$/frontend/signup_err1.php" />
+        <option value="$PROJECT_DIR$/frontend/signup_err2.php" />
+        <option value="$PROJECT_DIR$/frontend/signupView.php" />
+        <option value="$PROJECT_DIR$/frontend/Kalendarz/index.html" />
+        <option value="$PROJECT_DIR$/frontend/Kalendarz/index.php" />
+        <option value="$PROJECT_DIR$/frontend/welcome.php" />
+        <option value="$PROJECT_DIR$/frontend/connect.php" />
+        <option value="$PROJECT_DIR$/frontend/signup.php" />
+        <option value="$PROJECT_DIR$/frontend/index.php" />
+        <option value="$PROJECT_DIR$/frontend/login.php" />
+        <option value="$PROJECT_DIR$/frontend/Database.php" />
+        <option value="$PROJECT_DIR$/frontend/Kalendarz/plikTestowy.json" />
+        <option value="$PROJECT_DIR$/frontend/User.php" />
+        <option value="$PROJECT_DIR$/frontend/read.php" />
+        <option value="$PROJECT_DIR$/api/config/connect.php" />
+        <option value="$PROJECT_DIR$/api/log in/login.php" />
+        <option value="$PROJECT_DIR$/api/sign up/signup.php" />
+        <option value="$PROJECT_DIR$/api/sign up/signupView.php" />
+        <option value="$PROJECT_DIR$/api/sign up/welcome.php" />
+        <option value="$PROJECT_DIR$/api/user/read.php" />
+        <option value="$PROJECT_DIR$/api/index.php" />
+        <option value="$PROJECT_DIR$/api/log in/logout.php" />
+        <option value="$PROJECT_DIR$/api/objects/create.php" />
+        <option value="$PROJECT_DIR$/api/objects/User.php" />
+        <option value="$PROJECT_DIR$/api/user/create.php" />
+        <option value="$PROJECT_DIR$/api/user/createM.php" />
+        <option value="$PROJECT_DIR$/Kalendarz/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="778" />
+    <option name="y" value="12" />
+    <option name="width" value="905" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="log in" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="objects" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sign up" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TAS-Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAS-Projekt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Kalendarz" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TAS-Projekt\frontend" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60ea63c6-ecc9-43c6-9a56-236c04cbe031" name="Default" comment="" />
+      <created>1512810339669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512810339669</updated>
+      <workItem from="1512810341622" duration="9076000" />
+      <workItem from="1513360059203" duration="7525000" />
+      <workItem from="1513760474936" duration="39000" />
+      <workItem from="1513760570709" duration="3318000" />
+      <workItem from="1514567101206" duration="856000" />
+      <workItem from="1515080052822" duration="5881000" />
+      <workItem from="1515168443281" duration="5794000" />
+      <workItem from="1515673196898" duration="275000" />
+      <workItem from="1515673483256" duration="1447000" />
+      <workItem from="1515691547601" duration="8581000" />
+      <workItem from="1515771842803" duration="7593000" />
+      <workItem from="1515837401435" duration="9635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60020000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="778" y="12" width="905" height="1005" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20359956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/signupView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/index.html" />
+    <entry file="file://$PROJECT_DIR$/frontend/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signupView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/index.html" />
+    <entry file="file://$PROJECT_DIR$/frontend/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="55" lean-forward="true" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signup_err2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signup_err1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/index.html" />
+    <entry file="file://$PROJECT_DIR$/frontend/calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signupView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/getJson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/plikTestowy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/signupView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sign up/signup_err1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sign up/signup_err2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sign up/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/log in/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sign up/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <marker date="1515850150722" expanded="true" signature="1245:1289" ph="SELECT id FR... users" />
+            <marker date="1515850150722" expanded="true" signature="1665:1716" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/log in/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <marker date="1515850094594" expanded="true" signature="1289:1298" ph="..." />
+            <marker date="1515850094594" expanded="true" signature="1483:1492" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sign up/signupView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1515852214070" expanded="true" signature="566:678" ph="SELECT u.log... users" />
+            <marker date="1515852214070" expanded="true" signature="845:1124" ph="SELECT m.mee... users" />
+            <marker date="1515852214070" expanded="true" signature="1291:1546" ph="SELECT t.tas... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="6" lean-forward="false" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user/createM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
