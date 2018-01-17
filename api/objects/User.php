@@ -22,7 +22,6 @@ class User
 
     public function __construct($db,$l)
     {
-        $this->conn = $db;
         $this->login = $l;
     }
 
