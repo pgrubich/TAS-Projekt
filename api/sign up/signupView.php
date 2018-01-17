@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <title>Rejestracja</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../style.css" type="text/css"/>
+    <script src="../script.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="container">
     <div id="panel">
         <div id="top">
-            <input type="submit" value="Powrót" onclick="location.href = 'index.php';" id= "back" ><br>
+            <input type="submit" value="Powrót" onclick="location.href = '../index.php';" id= "back" ><br>
         </div>
         <div id="mid">
             <form action="signup.php" method="post">
