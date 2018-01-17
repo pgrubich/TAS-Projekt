@@ -10,13 +10,13 @@ if((!isset($_SESSION['loggedIn'])) || !($_SESSION['loggedIn'])) {
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-include_once '../config/database.php';
+require_once '../config/database.php';
 include_once '../objects/User.php';
 
 
 
 
-$user = new User($_SESSION['login']);
+$user = new User($_SESSION['login'],$conn);
 
 $statement = $user->read1();
 $num = $statement->rowCount();

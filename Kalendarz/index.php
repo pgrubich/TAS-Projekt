@@ -17,6 +17,7 @@ if(!isset($_SESSION['loggedIn']))
         <link href="https://fonts.googleapis.com/css?family=Norican|Quicksand" rel="stylesheet">
 	</head>
 	<body>
+        <a href="../api/log in/logout.php">Wyloguj się</a>
             <div id ="menu"><h4>Hello Marcin</h4></br>
                 <button id="menuButton">Expand the menu</button>
                 <ul>

@@ -3,9 +3,8 @@
 
 class User
 {
-    private $conn;
-  //  private $table_name = "users";
 
+  //  private $table_name = "users";
     public $login;
     public $signup_date;
     public $meeting_creator;
@@ -19,20 +18,26 @@ class User
     public $task_deadline_time;
     public $task_desc;
     public $task_status;
+    private $db;
 
-    public function __construct($db,$l)
+
+
+    public function __construct($l, $conn)
     {
+        require_once '../config/database.php';
+        $this-> db = $conn;
         $this->login = $l;
     }
 
     function read1(){
 
+
         $query1 = "SELECT u.login, u.signup_date
                    FROM users u 
-                   WHERE u.login = '$this->login'";
+                   WHERE u.login = ?";
 
-        $statement1 = $this->conn->prepare($query1);
-        $statement1->execute();
+        $statement1 = $this->db->prepare($query1);
+        $statement1->execute([$this->login]);
 
         return $statement1;
     }
@@ -43,10 +48,10 @@ class User
                    FROM users u 
                    left join meetings m 
                    ON u.login = m.meeting_creator
-                   WHERE u.login = '$this->login'";
+                   WHERE u.login = ?";
 
-        $statement2 = $this->conn->prepare($query2);
-        $statement2->execute();
+        $statement2 = $this->db->prepare($query2);
+        $statement2->execute([$this->login]);
 
         return $statement2;
     }
@@ -57,10 +62,10 @@ class User
                    FROM users u
                    left join tasks t
                    ON u.login = t.task_creator
-                   WHERE u.login = '$this->login'";
+                   WHERE u.login = ?";
 
-        $statement3 = $this->conn->prepare($query3);
-        $statement3->execute();
+        $statement3 = $this->db->prepare($query3);
+        $statement3->execute([$this->login]);
 
         return $statement3;
     }
