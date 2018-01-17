@@ -7,7 +7,7 @@ if((!isset($_POST['login'])) || (!isset($_POST['password']))) {
   exit();
 }
 
-$conn = require_once "../config/database.php";
+require_once "../config/database.php";
 
     $login = $_POST['login'];
     $password = $_POST['password'];
