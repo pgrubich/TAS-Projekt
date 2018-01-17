@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tasendarz</string>
+    <string name="date">Wybrana data:</string>
+    <string name="go_to_calendar">Idź do kalendarza</string>
+    <string name="enter_event">Dodaj wydarzenie</string>
+    <string name="add_event">Wprowadź nazwę nowego wydarzenia</string>
+    <string name="display_event">Dodane wydarzenia:</string>
+    <string name="textview" />
+    <string name="go_back">Powrót</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="log_in">Zaloguj</string>
+</resources>
