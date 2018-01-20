@@ -1,10 +1,18 @@
+body{
+	background-image: url("../Kalendarz/pics/background.jpg");
+}
+
+
+
 #container
 {
 	width:auto;
+	
 
 }
 #panel
 {
+	background-color: white;
 	border: 1px solid silver;
 	width: 400px;
 	margin: 0 auto;
@@ -51,25 +59,58 @@ form
 {
 	border-radius:3px;
 	width: 100%;
-	padding: 3px 5px;
-	border: 1px solid #005f85;
-	color: white;
+	padding: 10px 0px;
 	text-shadow: 0 0 1px black;
-	background: #98c9dc;
 	position: relative;
+	background-color: rgb(179, 44, 26);
+    border: 1px solid white;
+    color: white;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	float:right;
+	padding:5px;
 
 }
 
+#back:hover{
+	background-color: rgb(168, 42, 25);
+    cursor: pointer;
+}
 
 [type=submit]
 {
 	border-radius:3px;
 	width: 100%;
 	padding: 10px 0px;
-	border: 1px solid #005f85;
-	color: white;
 	text-shadow: 0 0 1px black;
-	background: #98c9dc;
 	position: relative;
+	background-color: rgb(179, 44, 26);
+    border: 1px solid white;
+    color: white;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
 
+}
+[type=submit]:hover{
+	background-color: rgb(168, 42, 25);
+    cursor: pointer;
+}
+
+#regis{
+	border-radius:3px;
+	width: 100%;
+	padding: 10px 0px;
+	text-shadow: 0 0 1px black;
+	position: relative;
+	background-color: rgb(179, 44, 26);
+    border: 1px solid white;
+    color: white;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	float:right;
+	padding:5px;
+}
+#regis:hover{
+	background-color: rgb(168, 42, 25);
+    cursor: pointer;
 }

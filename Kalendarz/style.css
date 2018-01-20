@@ -2,6 +2,7 @@
 body{
 
     background-image: url("./pics/background.jpg");
+	
 }
 
 #container{
@@ -267,7 +268,22 @@ form > button{
 }
 
 
-
+#logout{
+    float:right;
+    background-color: rgb(179, 44, 26);
+    border-radius:3px;
+    border: 1px solid white;
+    width:160px;
+    height: 45px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+#logout:hover{
+    background-color: rgb(168, 42, 25);
+    cursor: pointer;
+ 
+}
 
 
 
