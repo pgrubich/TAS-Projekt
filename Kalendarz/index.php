@@ -17,7 +17,7 @@ if(!isset($_SESSION['loggedIn']))
         <link href="https://fonts.googleapis.com/css?family=Norican|Quicksand" rel="stylesheet">
 	</head>
 	<body>
-        <a href="../api/log in/logout.php">Wyloguj się</a>
+        <a href="../api/log_in/logout.php">Wyloguj się</a>
             <div id ="menu"><h4>Hello Marcin</h4></br>
                 <button id="menuButton">Expand the menu</button>
                 <ul>
@@ -27,11 +27,8 @@ if(!isset($_SESSION['loggedIn']))
                 </ul>
 				<div>
 
-				<form action="#" method="post" id="formMeeting">
+				<form action="../api/user/createMeeting.php" method="post" id="formMeeting">
 					<h4>Meeting</h4><button type="button" id="goToTask">Create task</button><div style="clear:both;"></div>
-					<p>Creator:
-						<input type="text" name="creator"/>
-					</p>
 					<p>Name:
 						<input type="text" name="name"/>
 					</p>

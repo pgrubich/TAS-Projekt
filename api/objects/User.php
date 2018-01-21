@@ -6,7 +6,6 @@ class User
 
   //  private $table_name = "users";
     public $login;
-    public $signup_date;
     public $meeting_creator;
     public $meeting_name;
     public $meeting_desc;
@@ -22,17 +21,16 @@ class User
 
 
 
-    public function __construct($l, $conn)
+    public function __construct($l,$conn)
     {
-        require_once '../config/database.php';
+        //require_once '../config/database.php';
         $this-> db = $conn;
         $this->login = $l;
     }
 
     function read1(){
 
-
-        $query1 = "SELECT u.login, u.signup_date
+        $query1 = "SELECT u.login
                    FROM users u 
                    WHERE u.login = ?";
 
@@ -68,5 +66,28 @@ class User
         $statement3->execute([$this->login]);
 
         return $statement3;
+    }
+
+    function createMeeting(){
+
+        $query = "INSERT INTO meetings (meeting_id,meeting_creator,meeting_name,meeting_desc,meeting_date,meeting_time,meeting_place)
+                  VALUES (:id,:creator,:name,:description,:date,:time,:place)";
+
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':id', NULL, PDO::PARAM_NULL);
+        $stmt->bindValue(':creator', $this->meeting_creator, PDO::PARAM_STR);
+        $stmt->bindValue(':name', $this->meeting_name, PDO::PARAM_STR);
+        $stmt->bindValue(':description', $this->meeting_desc, PDO::PARAM_STR);
+        $stmt->bindValue(':date', $this->meeting_date, PDO::PARAM_STR);
+        $stmt->bindValue(':time', $this->meeting_time, PDO::PARAM_STR);
+        $stmt->bindValue(':place', $this->meeting_place, PDO::PARAM_STR);
+
+        $stmt->execute();
+        if($stmt){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
