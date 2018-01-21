@@ -19,11 +19,11 @@ if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']))
 	 <div id="container">
 	 <div id="panel">
 		<div id="top">
-		Nie masz konta? <a href="sign_up/signupView.php" >Zarejerstruj się</a>.
+		<a href="sign_up/signupView.php" ><button id="regis">Zarejerstruj się</button></a>
 		</div>
 		<div id="mid">
 			<form action="log_in/login.php" method="post">
-			Nazwa użytkownika: <br>
+			Nazwa użytkownika:
 			<input type="username" name="login"><br>
 			Hasło: <br>
 			<input type="password" name="password"><br>
