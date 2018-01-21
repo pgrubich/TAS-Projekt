@@ -650,25 +650,23 @@ INSERT INTO `tasks_invitations` (`taskInv_id`, `task_inviter`, `TI_task_id`, `po
 CREATE TABLE `users` (
   `login` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
-  `signup_date` datetime NOT NULL,
-  `avatar` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Zrzut danych tabeli `users`
 --
 
-INSERT INTO `users` (`login`, `password`, `signup_date`, `avatar`) VALUES
-('apple', 'haskell3', '1995-08-12 13:24:44', 'avatars/apple_64x64.png'),
-('DarioX23', 'Polska123', '2016-05-10 17:14:14', 'avatars/DarioX23_64x64.png'),
-('dell', 'utf8@sd', '2000-10-24 22:35:12', 'avatars/dell_64x64.png'),
-('greg', 'tommy', '2012-01-14 11:06:25', 'avatars/greg_64x64.png'),
-('linuks', 'ubuntu', '2012-03-14 19:26:37', 'avatars/linuks_64x64.png'),
-('login123', 'haslo321', '2011-04-30 15:48:55', 'avatars/login123_64x64.png'),
-('mareczek123', 'WinogradyMCG', '2017-12-10 12:34:54', 'avatars/mareczek123_64x64.png'),
-('Mario', 'qazwsx', '2015-10-09 17:14:14', 'avatars/Mario_64x64.png'),
-('pancernik', 'lufa123', '2014-02-03 23:32:12', 'avatars/pancernik_64x64.png'),
-('radas', 'bradas', '2013-09-22 11:05:03', 'avatars/radas_64x64.png');
+INSERT INTO `users` (`login`, `password`) VALUES
+('apple', 'haskell3'),
+('DarioX23', 'Polska123'),
+('dell', 'utf8@sd'),
+('greg', 'tommy'),
+('linuks', 'ubuntu'),
+('login123', 'haslo321'),
+('mareczek123', 'WinogradyMCG'),
+('Mario', 'qazwsx'),
+('pancernik', 'lufa123'),
+('radas', 'bradas');
 
 --
 -- Indeksy dla zrzutów tabel
