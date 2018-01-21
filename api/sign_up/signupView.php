@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -17,11 +21,11 @@
 
                 Nazwa użytkownika: <br>
                 <input type="username" name="username"><br>
-                <?php include 'signup_err1.php'?>
+                <?php require_once 'signup_err1.php'?>
 
                 Hasło: <br>
                 <input type="password" name="pass1"><br>
-                <?php include 'signup_err2.php'?>
+                <?php require_once 'signup_err2.php'?>
 
                 Powtórz hasło: <br>
                 <input type="password" name="pass2"><br>

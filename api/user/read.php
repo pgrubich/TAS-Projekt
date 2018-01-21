@@ -14,8 +14,6 @@ require_once '../config/database.php';
 include_once '../objects/User.php';
 
 
-
-
 $user = new User($_SESSION['login'],$conn);
 
 $statement = $user->read1();
@@ -31,7 +29,6 @@ if($num>0){
 
         $user_record = array(
             "login" => $login,
-            "signup_date" =>  $signup_date
         );
 
         array_push($logged_user["user"],$user_record);

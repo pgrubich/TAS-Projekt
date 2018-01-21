@@ -2,7 +2,7 @@
 session_start();
 if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']))
 {
-  header('Location: Kalendarz/index.php');
+  header('Location: ../Kalendarz/index.php');
   exit();
 }
 ?>
@@ -19,13 +19,13 @@ if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']))
 	 <div id="container">
 	 <div id="panel">
 		<div id="top">
-		<a href="sign up/signupView.php" ><button id="regis">Zarejerstruj się</button></a>
+		<a href="sign_up/signupView.php" ><button id="regis">Zarejerstruj się</button></a>
 		</div>
 		<div id="mid">
-			<form action="login.php" method="post">
-			Nazwa użytkownika: 
+			<form action="log_in/login.php" method="post">
+			Nazwa użytkownika:
 			<input type="username" name="login"><br>
-			Hasło: 
+			Hasło: <br>
 			<input type="password" name="password"><br>
 
 			<input type="submit" value="Zaloguj się" ><br>
@@ -36,8 +36,10 @@ if((isset($_SESSION['loggedIn'])) && ($_SESSION['loggedIn']))
 	 </div>
 
 <?php
-  if(isset($_SESSION['error']))
+  if(isset($_SESSION['error'])){
     echo $_SESSION['error'];
+    unset($_SESSION['error']);
+    }
 ?>
 
 	 </body>
