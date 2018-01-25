@@ -59,3 +59,7 @@ function hideAll(){
 	remove.style.display = "none";
 	meeting.style.display = "none";
 }
+
+
+
+document.getElementById("checkToDoList").addEventListener('click',function () {location.href = "toDoList.html";},false);   //to do list
