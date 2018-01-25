@@ -1,0 +1,68 @@
+body{
+
+    background-image: url("./pics/background.jpg");
+	
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Norican', cursive;
+    font-size: 70px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 10px;
+}
+#toDoContent{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    background-color:white;
+    height: 525px;
+    padding: 15px 15px 0px 15px;
+    border-radius: 15px;
+}
+
+#goToCalendar{
+    float:right;
+    background-color: rgb(179, 44, 26);
+    border-radius:3px;
+    border: 1px solid white;
+    width:160px;
+    height: 45px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+#goToCalendar:hover{
+    background-color: rgb(168, 42, 25);
+    cursor: pointer;
+ 
+}
+
+#toDoTable thead{
+    font-size:22px;
+}
+
+#toDoTable{
+    width:100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#saveToDo{
+    float:right;
+    background-color: rgb(179, 44, 26);
+    border-radius:5px;
+    border: 1px solid white;
+    width:160px;
+    height: 45px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    margin-top:20px;
+    margin-right:20px;
+}

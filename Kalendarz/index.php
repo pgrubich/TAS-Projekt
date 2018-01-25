@@ -23,7 +23,7 @@ if(!isset($_SESSION['loggedIn']))
                 <ul>
                     <li><span id="addEvent" >ADD TASK</span></li>
                     <li><span id="removeEvent" >DELETE TASK</span></li>
-                    <li><span >CHECK TASK LIST</span></li>
+                    <li><span id="checkToDoList">CHECK TASK LIST</span></li>
                 </ul>
 				<div>
 
@@ -65,7 +65,10 @@ if(!isset($_SESSION['loggedIn']))
 
 				<form action="#" method="post" id="deleteEvent">
 					<p>Event name:
-						<input type="text" name="place"/>
+                        <input type="text" name="name"/>
+                    </p>
+                    <p>Event date:
+                        <input type="date" name="date"/>
 					</p>
 					<input type="submit" value="Delete" />
 					<button type="button" class="quitCreating">Quit</button><div style="clear:both;"></div>
@@ -147,6 +150,7 @@ if(!isset($_SESSION['loggedIn']))
         <script src="calendar.js" type="text/javascript"></script>
         <script src="menu.js" type="text/javascript"></script>
         <script src="getJson.js" type="text/javascript"></script>
+    
 
     </body>
     
