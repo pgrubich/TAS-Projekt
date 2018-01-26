@@ -262,11 +262,24 @@ form > button{
 	padding-top:3px;
 }
 
+#deleteTask{
+    display:none;
+	padding-top:3px;
+}
+#deleteMeeting{
+    display:none;
+	padding-top:3px;
+}
+
 .quitCreating{
 	width:50px;
 	margin-top:0px;
 }
 
+#goDeleteTask{
+    background-color:red;
+    
+}
 
 #logout{
     float:right;

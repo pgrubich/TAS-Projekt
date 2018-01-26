@@ -21,8 +21,8 @@ if(!isset($_SESSION['loggedIn']))
             <div id ="menu"><h4>Hello Marcin</h4></br>
                 <button id="menuButton">Expand the menu</button>
                 <ul>
-                    <li><span id="addEvent" >ADD TASK</span></li>
-                    <li><span id="removeEvent" >DELETE TASK</span></li>
+                    <li><span id="addEvent" >ADD EVENT</span></li>
+                    <li><span id="removeEvent" >DELETE EVENT</span></li>
                     <li><span id="checkToDoList">CHECK TASK LIST</span></li>
                 </ul>
 				<div>
@@ -48,7 +48,7 @@ if(!isset($_SESSION['loggedIn']))
 						<button type="button" class="quitCreating">Quit</button><div style="clear:both;"></div>
 				</form>
 				<form action="../api/user/createTask.php" method="post" id="formTask">
-					<h4>Task</h4><button type="button" id="goToMeeting">Create meeting</button><div style="clear:both;"></div>
+                    <h4>Task</h4><button type="button" id="goToMeeting">Create meeting</button><div style="clear:both;"></div>
 					<p>Name:
 						<input type="text" name="name"/>
 					</p>
@@ -66,7 +66,19 @@ if(!isset($_SESSION['loggedIn']))
 						<button type="button" class="quitCreating">Quit</button><div style="clear:both;"></div>
 				</form>
 
-				<form action="#" method="post" id="deleteEvent">
+				<form action="#" method="post" id="deleteMeeting">
+                    <h4>Delete Meeting</h4><button type="button" id="goDeleteTask">Delete Task</button><div style="clear:both;"></div>
+					<p>Event name:
+                        <input type="text" name="name"/>
+                    </p>
+                    <p>Event date:
+                        <input type="date" name="date"/>
+					</p>
+					<input type="submit" value="Delete" />
+					<button type="button" class="quitCreating">Quit</button><div style="clear:both;"></div>
+                </form>
+                <form action="#" method="post" id="deleteTask">
+                    <h4>Delete Task</h4><button type="button" id="goDeleteMeeting">Delete meeting</button><div style="clear:both;"></div>
 					<p>Event name:
                         <input type="text" name="name"/>
                     </p>
