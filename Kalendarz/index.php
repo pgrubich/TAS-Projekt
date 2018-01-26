@@ -47,7 +47,7 @@ if(!isset($_SESSION['loggedIn']))
 						<input type="submit" value="Send" />
 						<button type="button" class="quitCreating">Quit</button><div style="clear:both;"></div>
 				</form>
-				<form action="#" method="post" id="formTask">
+				<form action="../api/user/createTask.php" method="post" id="formTask">
 					<h4>Task</h4><button type="button" id="goToMeeting">Create meeting</button><div style="clear:both;"></div>
 					<p>Name:
 						<input type="text" name="name"/>
@@ -58,6 +58,9 @@ if(!isset($_SESSION['loggedIn']))
 					<p>Deadline:
 						<input type="date" name="date"/>
 					</p>
+                    <p>Time:
+                        <input type="time" name="time"/>
+                    </p>
 						<input type="hidden" name="status" value="doing" />
 						<input type="submit" value="Send" />
 						<button type="button" class="quitCreating">Quit</button><div style="clear:both;"></div>

@@ -12,6 +12,7 @@ class User
     public $meeting_date;
     public $meeting_time;
     public $meeting_place;
+    public $task_creator;
     public $task_name;
     public $task_deadline_day;
     public $task_deadline_time;
@@ -90,4 +91,28 @@ class User
             return false;
         }
     }
+
+    function createTask(){
+
+        $query = "INSERT INTO tasks (task_id,task_creator,task_name,task_deadline_day,task_deadline_time,task_desc,task_status)
+                  VALUES (:id,:creator,:name,:day,:time,:description,:status)";
+
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':id', NULL, PDO::PARAM_NULL);
+        $stmt->bindValue(':creator', $this->task_creator, PDO::PARAM_STR);
+        $stmt->bindValue(':name', $this->task_name, PDO::PARAM_STR);
+        $stmt->bindValue(':day', $this->task_deadline_day, PDO::PARAM_STR);
+        $stmt->bindValue(':time', $this->task_deadline_time, PDO::PARAM_STR);
+        $stmt->bindValue(':description', $this->task_desc, PDO::PARAM_STR);
+        $stmt->bindValue(':status', $this->task_status, PDO::PARAM_STR);
+
+        $stmt->execute();
+        if($stmt){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
 }
