@@ -78,4 +78,4 @@ function showDeleteTask(){
 }
 
 
-document.getElementById("checkToDoList").addEventListener('click',function () {location.href = "toDoList.html";},false);   //to do list
+document.getElementById("checkToDoList").addEventListener('click',function () {location.href = "toDoList.php";},false);   //to do list

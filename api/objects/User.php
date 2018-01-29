@@ -115,4 +115,44 @@ class User
         }
     }
 
+    function deleteMeeting(){
+
+        $query = "DELETE FROM meetings 
+                  WHERE meeting_name = :meeting_name and meeting_date = :meeting_date and meeting_creator = :meeting_creator";
+
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':meeting_name', $this->meeting_name, PDO::PARAM_STR);
+        $stmt->bindValue(':meeting_creator', $this->meeting_creator, PDO::PARAM_STR);
+        $stmt->bindValue(':meeting_date', $this->meeting_date, PDO::PARAM_STR);
+
+        $stmt->execute();
+        if($stmt){
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    function deleteTask(){
+
+        $query = "DELETE FROM tasks 
+                  WHERE task_name = :task_name and task_deadline_day = :task_date and task_creator = :task_creator";
+
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':task_name', $this->task_name, PDO::PARAM_STR);
+        $stmt->bindValue(':task_creator', $this->task_creator, PDO::PARAM_STR);
+        $stmt->bindValue(':task_date', $this->task_deadline_day, PDO::PARAM_STR);
+
+        $stmt->execute();
+        if($stmt){
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
 }

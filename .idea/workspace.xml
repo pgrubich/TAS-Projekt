@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ea63c6-ecc9-43c6-9a56-236c04cbe031" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/user/createTask.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/user/delete.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Kalendarz/index.php" afterPath="$PROJECT_DIR$/Kalendarz/index.php" />
+      <change beforePath="$PROJECT_DIR$/Kalendarz/menu.js" afterPath="$PROJECT_DIR$/Kalendarz/menu.js" />
+      <change beforePath="$PROJECT_DIR$/Kalendarz/toDoList.html" afterPath="$PROJECT_DIR$/Kalendarz/toDoList.php" />
       <change beforePath="$PROJECT_DIR$/api/objects/User.php" afterPath="$PROJECT_DIR$/api/objects/User.php" />
+      <change beforePath="$PROJECT_DIR$/api/user/delete.php" afterPath="$PROJECT_DIR$/api/user/deleteMeeting.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,80 +17,107 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kalendarz/menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createTask.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/user/createTask.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/user/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/objects/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-              <folding>
-                <marker date="1516966126033" expanded="true" signature="619:703" ph="SELECT u.log... users" />
-                <marker date="1516966126033" expanded="true" signature="882:1148" ph="SELECT m.mee... users" />
-                <marker date="1516966126033" expanded="true" signature="1327:1569" ph="SELECT t.tas... users" />
-                <marker date="1516966126033" expanded="true" signature="1755:1948" ph="INSERT INTO meetings... " />
-                <marker date="1516966126033" expanded="true" signature="2684:2871" ph="INSERT INTO tasks... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kalendarz/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Kalendarz/menu.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="getJson.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Kalendarz/getJson.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="102" column="3" lean-forward="false" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="calendar.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Kalendarz/calendar.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="deleteMeeting.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/user/deleteMeeting.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="toDoList.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Kalendarz/toDoList.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="toDoList.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Kalendarz/toDoList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="493">
+                  <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="40" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="deleteTask.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/user/deleteTask.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="createMeeting.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/api/user/createMeeting.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pass</find>
       <find>post</find>
       <find>succe</find>
+      <find>but</find>
+      <find>xh</find>
+      <find>xhr1</find>
+      <find>xhr</find>
+      <find>parse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,11 +164,15 @@
         <option value="$PROJECT_DIR$/api/sign_up/signupView.php" />
         <option value="$PROJECT_DIR$/api/user/read.php" />
         <option value="$PROJECT_DIR$/api/sign_up/signup.php" />
-        <option value="$PROJECT_DIR$/api/objects/User.php" />
         <option value="$PROJECT_DIR$/api/user/createTask.php" />
         <option value="$PROJECT_DIR$/api/user/createMeeting.php" />
-        <option value="$PROJECT_DIR$/Kalendarz/index.php" />
         <option value="$PROJECT_DIR$/api/user/delete.php" />
+        <option value="$PROJECT_DIR$/api/user/deleteMeeting.php" />
+        <option value="$PROJECT_DIR$/api/objects/User.php" />
+        <option value="$PROJECT_DIR$/Kalendarz/index.php" />
+        <option value="$PROJECT_DIR$/api/user/deleteTask.php" />
+        <option value="$PROJECT_DIR$/api/user/changeTaskStatus.php" />
+        <option value="$PROJECT_DIR$/Kalendarz/toDoList.js" />
       </list>
     </option>
   </component>
@@ -151,7 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="1" />
     <option name="width" value="840" />
     <option name="height" value="1010" />
   </component>
@@ -170,8 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,7 +312,8 @@
       <workItem from="1516384746249" duration="2218000" />
       <workItem from="1516463290939" duration="15592000" />
       <workItem from="1516546372753" duration="3310000" />
-      <workItem from="1516962568795" duration="3271000" />
+      <workItem from="1516962568795" duration="3874000" />
+      <workItem from="1517251294987" duration="10022000" />
     </task>
     <task id="LOCAL-00001" summary="Merged">
       <created>1516554006727</created>
@@ -287,17 +322,24 @@
       <option name="project" value="LOCAL" />
       <updated>1516554006727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added deleting Tasks / Meetings">
+      <created>1517262315326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517262315326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97616000" />
+    <option name="totallyTimeSpent" value="108241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="840" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25849515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12678571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -326,7 +368,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merged" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merged" />
+    <MESSAGE value="Added deleting Tasks / Meetings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deleting Tasks / Meetings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,11 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/Kalendarz/index.html" />
-    <entry file="file://$PROJECT_DIR$/frontend/login.php" />
-    <entry file="file://$PROJECT_DIR$/frontend/signup.php" />
-    <entry file="file://$PROJECT_DIR$/frontend/welcome.php" />
-    <entry file="file://$PROJECT_DIR$/frontend/login.php" />
     <entry file="file://$PROJECT_DIR$/frontend/signup_err2.php" />
     <entry file="file://$PROJECT_DIR$/frontend/signup_err1.php" />
     <entry file="file://$PROJECT_DIR$/frontend/style.css" />
@@ -455,18 +493,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kalendarz/menu.js">
+    <entry file="file://$PROJECT_DIR$/api/user/createTask.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kalendarz/getJson.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="75" column="61" lean-forward="true" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -478,56 +509,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/objects/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        <state relative-caret-position="321">
+          <caret line="132" column="25" lean-forward="true" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
           <folding>
-            <marker date="1516966126033" expanded="true" signature="619:703" ph="SELECT u.log... users" />
-            <marker date="1516966126033" expanded="true" signature="882:1148" ph="SELECT m.mee... users" />
-            <marker date="1516966126033" expanded="true" signature="1327:1569" ph="SELECT t.tas... users" />
-            <marker date="1516966126033" expanded="true" signature="1755:1948" ph="INSERT INTO meetings... " />
-            <marker date="1516966126033" expanded="true" signature="2684:2871" ph="INSERT INTO tasks... " />
+            <marker date="1517254407935" expanded="true" signature="619:703" ph="SELECT u.log... users" />
+            <marker date="1517254407935" expanded="true" signature="882:1148" ph="SELECT m.mee... users" />
+            <marker date="1517254407935" expanded="true" signature="1327:1569" ph="SELECT t.tas... users" />
+            <marker date="1517254407935" expanded="true" signature="1755:1948" ph="INSERT INTO meetings... " />
+            <marker date="1517254407935" expanded="true" signature="2684:2871" ph="INSERT INTO tasks... " />
+            <marker date="1517254407935" expanded="true" signature="3610:3756" ph="DELETE FROM meetings... " />
+            <marker date="1517254407935" expanded="true" signature="4236:4369" ph="DELETE FROM tasks... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kalendarz/index.php">
+    <entry file="file://$PROJECT_DIR$/Kalendarz/toDo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/toDoList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/getJson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="102" column="3" lean-forward="false" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Kalendarz/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="278">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user/changeTaskStatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user/deleteMeeting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendarz/toDoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/user/createMeeting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/user/createTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/user/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
