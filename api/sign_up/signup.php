@@ -8,15 +8,19 @@
       $username = $_POST['username'];
       if((strlen($username) < 3) || (strlen($username) > 20))
       {
+          
           $succeeded = false;
-          $_SESSION['e_username']="Nazwa użytkownika musi posiadać od 3 do 20 znaków";
+
+          
+          $_SESSION['e_username']= "<script type='text/javascript'>alert('Nazwa użytkownika musi posiadać od 3 do 20 znaków');</script>";
           header('Location: signupView.php');
       }
 
       if(ctype_alnum($username) == false)
       {
           $succeeded = false;
-          $_SESSION['e_username']="Nazwa użytkownika może składać się tylko z liter i cyfr";
+          
+          $_SESSION['e_username']="<script type='text/javascript'>alert('Nazwa użytkownika może składać się tylko z liter i cyfr');</script>";
           header('Location: signupView.php');
       }
 
@@ -25,14 +29,16 @@
       if((strlen($pass1) < 8) || (strlen($pass1) > 20 ))
       {
           $succeeded = false;
-          $_SESSION['e_password'] = "Hasło musi posiadać od 8 do 20 znaków";
+          
+          $_SESSION['e_password'] = "<script type='text/javascript'>alert('Hasło musi posiadać od 8 do 20 znaków');</script>";
           header('Location: signupView.php');
       }
 
       if($pass1 != $pass2)
       {
           $succeeded = false;
-          $_SESSION['e_password'] = "Podane hasła nie są identyczne";
+         
+          $_SESSION['e_password'] =  "<script type='text/javascript'>alert('Podane hasła nie są identyczne');</script>";
           header('Location: signupView.php');
       }
 
@@ -52,7 +58,7 @@
           if($check->rowCount() > 0)
           {
               $succeeded = false;
-              $_SESSION['e_username'] = "Ta nazwa użytkownika jest już zajęta";
+              $_SESSION['e_username'] =  "<script type='text/javascript'>alert('Ta nazwa użytkownika jest już zajęta');</script>";;
               header('Location: signupView.php');
           }
 

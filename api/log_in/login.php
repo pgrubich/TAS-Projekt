@@ -25,7 +25,7 @@ require_once "../config/database.php";
             unset($_SESSION['error']);
             header('Location: ../../Kalendarz/index.php');
         } else {
-            $_SESSION['error'] = '<span style="color:red">Nieprawidłowy login lub hasło</span>';
+            $_SESSION['error'] =  "<script type='text/javascript'>alert('Nieprawidłowy login lub hasło');</script>";;
             header('Location: ../index.php');
         }
 
